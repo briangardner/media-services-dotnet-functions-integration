@@ -3,19 +3,49 @@
   "contentVersion": "1.0.0.0",
     "parameters": {
         "appName": {
-            "value": "GEN-UNIQUE"
-        },
-        "functionKey": {
-            "value" : "GEN-UNIQUE"
+            "value": "dev-usafmediaservices-advance-vod"
         },
         "sourceCodeRepositoryURL": {
-            "value": "ENTER PATH TO YOUR FORK OF - https://github.com/Azure-Samples/media-services-dotnet-functions-integration"
+            "value": "https://github.com/briangardner/media-services-dotnet-functions-integration"
         },
         "sourceCodeBranch": {
-            "value": "master"
+            "value": "develop"
         },
         "sourceCodeManualIntegration": {
             "value": true
+        },
+        "mediaServicesAccountAzureActiveDirectoryTenantDomain":{
+            "value":"usafinancial.onmicrosoft.com"
+        },
+        "mediaServicesAccountRestApiEndpoint":{
+            "value": "https://devusafmediaservices.restv2.centralus.media.azure.net/api/"
+        },
+        "mediaServicesAccountServicePrincipalClientId":{
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/a54448a6-61c4-4b1d-9a6f-d37044367b74/resourceGroups/dev-usaf-media/providers/Microsoft.KeyVault/vaults/dev-media-secrets"
+                },
+                "secretName": "Media-Service-Principal-Id"
+            }
+        },
+        "mediaServicesAccountServicePrincipalClientSecret":{
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/a54448a6-61c4-4b1d-9a6f-d37044367b74/resourceGroups/dev-usaf-media/providers/Microsoft.KeyVault/vaults/dev-media-secrets"
+                },
+                "secretName": "Media-Service-Principal-Secret"
+            }
+        },
+        "mediaServicesStorageAccountName":{
+            "value": "devusafmediaservices"
+        },
+        "mediaServicesStorageAccountKey":{
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/a54448a6-61c4-4b1d-9a6f-d37044367b74/resourceGroups/dev-usaf-media/providers/Microsoft.KeyVault/vaults/dev-media-secrets"
+                },
+                "secretName": "Media-Services-Storage-Key"
+            }
         }
     }
 }
