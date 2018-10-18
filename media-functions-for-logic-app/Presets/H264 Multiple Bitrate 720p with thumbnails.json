@@ -142,6 +142,13 @@
       "Format": {
         "Type": "PngFormat"
       }
+    },
+    {
+      "FileName": "{Basename}_{Resolution}_{Index}{Extension}",
+      "Format": {
+          "Type": "JpgFormat"
+        }
     }
+
   ]
 }
