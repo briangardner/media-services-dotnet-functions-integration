@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
     "parameters": {
         "appName": {
-            "value": "dev-usafmediaservices-advance-vod"
+            "value": "dev-usafmediaservices-advanced-vod"
         },
         "sourceCodeRepositoryURL": {
             "value": "https://github.com/briangardner/media-services-dotnet-functions-integration"
