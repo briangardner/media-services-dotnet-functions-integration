@@ -35,6 +35,9 @@
     <None Update="Presets\H264 Multiple Bitrate 720p with thumbnail.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Presets\H264 Multiple Bitrate 720p with thumbnails.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Presets\H264 Multiple Bitrate 720p.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
